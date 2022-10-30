@@ -1,0 +1,524 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(16, 16, 16, 0.4);
+    padding: 16px 8%;
+    color: #ffffff;
+}
+
+
+ul{
+    display: flex;
+    margin-left: 80px;
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: #594677;
+    cursor: pointer;
+}
+
+.hero{
+    height: 100%;
+    width: 100%; 
+    padding-top: 100px;
+    padding-bottom: 40px;
+    display: block;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("https://www.online-tech-tips.com/wp-content/uploads/2022/04/coding.jpg");
+    background-size: cover;
+}
+.details{
+    margin-top: 20px;
+}
+.details h1{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
+.details h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+    line-height: 1;
+    color: white;
+    text-align: center;
+}
+.details h4{
+    font-size: 16px;
+    color: #594677;
+    margin-bottom: 16px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+.details p{
+    font-size: 16px;
+    line-height: 120%;
+    color: white;
+}
+
+.pic img{
+    border-radius: 1000px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border: 2px solid#594677;
+}
+
+
+.about{
+    width: 100%; 
+    padding: 80px 8%;
+    background-color: #221134;
+    color: #ffffff;
+}
+.about_m{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_btn{
+    width: 100%;
+    margin-left: 100px;
+
+}
+.about_btn p{
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: lighter;
+    margin-bottom: 8px;
+
+}
+
+.about_me h1{
+    font-size: 24px;
+    line-height: 150%;
+}
+.about_me hr{
+    width: 32px;
+    margin-bottom: 5px;
+    background-color:  #594677;
+    border: 2px solid #594677;
+}
+
+.btn{
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 2px solid #594677;
+    font-size: 14px;
+    margin: 16px 0 24px 0;
+}
+.btn:hover{
+    background: #594677;
+    color: #ffffff;
+    cursor: pointer;
+}
+.services{
+    width: 100%; 
+    padding: 60px 8%;
+    display: block;
+    background-color: #594677;
+    color: #ffffff;
+}
+.services hr{
+    width: 32px;
+    background-color: #221134;
+    border: 2px solid #221134;
+    margin-top: 5px;
+}
+.container{
+    min-height: 100%;
+    height: 100%;
+    width: 100%; 
+    padding-top: 40px;
+    margin: auto  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.image #name-icon{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+.box2{   
+    width: 500px;
+    height: 300px; 
+    color: #ffffff;
+    padding: 4%;
+    border: 1px solid#221134;
+    border-radius: 8px;
+    background-color:  rgba(34, 17, 52, 0.2);
+}
+.box3{   
+    width: 500px;
+    height: 300px; 
+    color: #ffffff;
+    padding: 4%;
+    border: 1px solid#221134;
+    margin-left: 16px;
+    border-radius: 8px;
+    background-color:  rgba(34, 17, 52, 0.2);
+}
+.box{
+    width: 500px;
+    height: 300px;
+    padding: 4%;
+    border: 1px solid#221134;
+    margin-right: 20px;
+    border-radius: 8px;
+    background-color:  rgba(34, 17, 52, 0.2);
+}
+.s_text h1{
+    font-size: 24px;
+}
+
+.text h1{
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.text p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: lighter;
+}
+.projects{
+    width: 100%; 
+    padding: 60px 8%;
+    display: block;
+    background-color: #594677;
+    color: #ffffff;
+}
+
+.projects hr{
+    width: 36px;
+    background-color:  #221134;
+    border: 2px solid #221134;
+    margin-top: 5px;
+}
+.container2{
+    min-height: 100%;
+    height: 100%;
+    width: 100%; 
+    padding-top: 40px;
+    display: flex;
+    margin: auto  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image img{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto 24px auto;
+    
+}
+.image i{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto 24px auto;
+    
+}
+
+
+.project_pics img {
+    width: 150px;
+    min-width: 30%;
+    height: 150px;
+    display: block;
+    margin: 0 auto 24px auto;
+    border-radius: 8px;
+}
+.project_pics a:focus {
+    border-color: #594677;
+
+}
+hr{
+    border: 0.5px solid #221134;
+    background-color: #221134;
+}
+footer{
+    width: 100%; 
+    padding: 60px 8%;
+    background-color: #221134
+}
+.footer{
+    text-align: center;
+    margin: 24px 0 8px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: lighter;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(16, 16, 16, 0.4);
+    padding: 16px 8%;
+    color: #ffffff;
+}
+.hero2{
+    height: 100%;
+    width: 100%; 
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url("https://brookesblogs.net/wp-content/uploads/2022/03/contactus.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.contact_img h1{
+  font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+  padding-top: 80px;
+}
+
+.social_media a{
+    width: 35px ;
+    height: 35px;    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    margin-top: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    margin-right: 8px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 16px;
+}
+.social_media a:hover{
+    color: #594677;
+    background: #221134;
+}
+.my_info{
+    width: 100%; 
+    padding: 60px 8%;
+    background-color: #594677;
+    color: #ffffff;
+
+}
+.my_contact{
+    text-align: center;
+    width: 100%; 
+    padding-top: 40px;
+    display: inline-block;
+    margin: auto  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    padding: 4%;
+    border: 1px solid#221134;
+    margin-right: 20px;
+    border-radius: 8px;
+    background-color:  rgba(34, 17, 52, 0.2);
+}
+
+.phone{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    padding: 4%;
+    border: 1px solid#221134;
+    margin-right: 20px;
+    border-radius: 8px;
+    background-color:  rgba(34, 17, 52, 0.2);
+}
+.address{
+    width: 100%;
+    height: 200px;
+    padding: 4%;
+    border: 1px solid#221134;
+    margin-right: 20px;
+    border-radius: 8px;
+    background-color:  rgba(34, 17, 52, 0.2);
+}
+.address h2{
+    font-size: 16px;
+    text-align: center;
+    line-height: 120%;
+}
+.address p{
+    padding: 20px;
+    font-size: 14px;
+    line-height: 120%;
+}
+.phone h2{
+    font-size: 16px;
+    text-align: center;
+    line-height: 120%;
+}
+.phone p{
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 120%;
+}
+.mail h2{
+    text-align: center;
+    font-size: 16px;
+    line-height: 120%;
+}
+.mail p{
+    padding: 20px;
+    font-size: 14px;
+    line-height: 120%;
+}
+  @media screen and (max-width: 745px){
+
+    .about_m{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .about_me h1{
+        line-height: 120%;
+    }
+
+    .about_me hr{
+        margin-top: 5px;
+        margin-bottom: 40px;
+        width: 70px;
+    }
+
+    .about_btn{
+        margin-left: 100px;
+        width: 50%;
+    }
+    .services{
+        width: 100%;
+        padding: 60px 8%;
+    }
+    .container{
+        width: 50%; 
+        padding-top: 40px;
+        margin: auto  auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project_pics img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container2{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto  auto;
+        
+    }
+    .box2{    
+        height: 300px;
+        width: 300px;
+        padding-top: 24px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .box{
+        height: 300px;
+        width: 300px;
+        padding-top: 24px;
+        margin-bottom: 16px;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .my_info{
+        width: 100%;
+        margin: auto;
+    }
+    .my_contact{
+        width: 60%;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    .mail{
+        width: 100%; 
+        padding-top: 8%;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+    
+    .phone{
+        width: 100%; 
+        margin-bottom: 24px;
+        padding-top: 8%;
+        text-align: center;
+
+    }
+    .address{
+        width: 100%; 
+        margin-bottom: 24px;
+        padding-top: 8%;
+        text-align: center;
+    }
+    .box3{
+        height: 200px;
+        width: 300px;
+        padding-top: 24px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .projects{
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        width: 100%; 
+        padding: 60px 8%;
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link  rel="stylesheet" href="register.css" /> 
+</head>
+<body>
+   <div class="container">
+        <header class="header">
+            <h1 id="head-label">Register Form</h1>
+            <p id="para">Kindly fill the form to register with us</p>
+        </header>
+    <form action="success.html">
+        <div class="form-style">
+            <label for="fname">First name</label>
+                 <input type="text" id="fname" name="fname" class="input-text" placeholder="First name" reqiured/>
+        </div>
+        <div class="form-style">
+            <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" class="input-text" placeholder="Last name" reqiured/>
+        </div>
+        <div class="form-style">
+            <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="input-text" placeholder="doe@" reqiured/>
+        </div>
+        <div class="form-style">
+            <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="input-text" pattern="[+][0-9]{3}[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="+234 222 xxx" reqiured/>
+          </div>
+         <div class="form-style">
+            <label for="gender">Gender</label>  
+            <select class="input-select" id="gender" name="gender" required>
+                <option value="Select option">Select option</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Bisexual">Bisexual</option>
+            </select>
+        </div>
+
+           <div class="form-style">
+            <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" class="input-text" name="dob" min="1968-01-01" max="2022-12-31" required/> 
+        </div>
+        <div class="form-style">
+            <label>What is your favorite color?</label>
+			<label for="favcolor"><input type="color" id="favcolor" value="#000000" class="input-select" name="favcolor" required/>
+			<span id="small">Pick</span></label>
+
+        </div>
+        <div class="form-style">
+            <p><input type="checkbox" id="t&t" value="t&t" class="input-checkbox" name="T&T" required/>
+			By registering, you agree to the <a href="">terms & conditions</a></p>
+        </div>
+        <div class="form-style">
+			<a href="Success page.html"><button type="submit" class="input-btn" value="Register">Register</button></a>
+        </div>
+        <div class="form-style">
+            <p class="p-style">Already have an account? <a href="login.html">Log in</a></p>
+        </div>
+    </form>
+
+   </div>
+</body>
+</html>

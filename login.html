@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="head-label">Log In</h1>
+        </header>
+        <form action="success.html">
+        
+            <div class="form-style">
+                <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="input-text" placeholder="Enter your password" reqiured />
+
+            </div>
+            <div class="form-style">
+                <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="input-text" min="6" max="8" placeholder="Enter your password" reqiured/>
+            </div>
+            <div class="form-style">
+                <p><input type="checkbox" id="t&t" value="t&t" class="input-checkbox" name="user-agreement" required/>
+               Remember me </p>
+            </div>
+            <div class="form-style">
+                <a href="Success page.html"><input type="submit" class="input-btn" value="Login" /></a>
+            </div>
+            <div class="p-style" >
+                <p>Don't have an account? <a href="index.html">Register Now</a></p>
+            </div>
+        </form>
+    
+    </div>
+</body>
+</html>
